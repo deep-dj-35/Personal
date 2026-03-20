@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Blog</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4, #a18cd1);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        /* Header */
+
+        header {
+            background: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+        }
+
+        header h1 {
+            color: #060606;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #ff4e8a;
+        }
+
+        /* Hero */
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            color: rgb(197, 63, 46);
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* Blog Section */
+
+        .blog {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .post {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .post:hover {
+            transform: translateY(-8px);
+        }
+
+        .post h3 {
+            color: #6a5acd;
+            margin-bottom: 10px;
+        }
+
+        .post p {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .post button {
+            background: #ff4e8a;
+            border: none;
+            color: white;
+            padding: 8px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .post button:hover {
+            background: #e63c75;
+        }
+
+        /* About */
+
+        .about {
+            background: white;
+            margin: 40px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Footer */
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: rgb(2, 2, 2);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Deep Jana</h1>
+
+        <nav>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="about.html" target="_blank">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My Personal Blog</h2>
+        <p>Sharing ideas, stories, and knowledge</p>
+    </section>
+
+    <section class="blog" id="blog">
+
+        <div class="post">
+            <h3>AS a Pharmacist</h3>
+            <p>I am pursuing my B.Pharm at The Neotia University.I have little bit interest in pharmacy.
+                But i don't want to go ahead with this.</p>
+        </div>
+
+        <div class="post">
+            <h3>Learning Web Development</h3>
+            <p>I have very interset in web development from my childhood nut i can't go ahead with this depertment.
+                Web development is fun and creative. You can build amazing websites.</p>
+        </div>
+
+        <div class="post">
+            <h3>In Future</h3>
+            <p>After complete my B.Pharm I will do MBA in kolkata.And I want to open my own startup in pharmacy field.And want to
+                take a job in HR post in a company.
+            </p>
+        </div>
+
+    </section>
+
+    <section></section>
+
+    <footer>
+        <p>© 2026 My Personal Blog | Made with ❤️</p>
+    </footer>
+
+    <script>
+
+        function readMore() {
+            alert("Full blog feature coming soon!");
+        }
+
+    </script>
+
+</body>
+
+</html>
